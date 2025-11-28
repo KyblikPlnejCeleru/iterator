@@ -4,6 +4,9 @@ import java.util.Iterator;
 public class Listofpaper implements Iterator {
     private ArrayList<Integer> nemamponeticotudelamteckalabubu;
 
+    public Listofpaper() {
+        this.nemamponeticotudelamteckalabubu = new ArrayList<>();
+    }
     public ArrayList<Integer> getNemamponeticotudelamteckalabubu(int i) {
         return nemamponeticotudelamteckalabubu;
     }
