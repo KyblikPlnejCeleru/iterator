@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -8,6 +9,10 @@ private int cenaKebabu;
 public Itterator(Listofpaper papirxd){
     this.papirxd = papirxd;
     this.cenaKebabu=papirxd.velikostRadimoveKoty()-1;
+}
+public ArrayList<Integer> dalsiJeCoPepo(){
+    cenaKebabu--;
+    return papirxd.getNemamponeticotudelamteckalabubu(cenaKebabu+1);
 }
 
     @Override
