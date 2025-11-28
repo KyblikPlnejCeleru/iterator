@@ -2,13 +2,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Listofpaper implements Iterator {
-    private ArrayList<Integer> papir;
+    private ArrayList<Integer> nemamponeticotudelamteckalabubu;
 
-    public void addPapir(int i){
-        papir.add(i);
+    public void addnemamponeticotudelamteckalabubu(int i){
+        nemamponeticotudelamteckalabubu.add(i);
 
     }
-
+public int velikostRadimoveKoty(){
+        return nemamponeticotudelamteckalabubu.size();
+}
 
     @Override
     public boolean hasNext() {
